@@ -1,0 +1,23 @@
+{
+    "name": "renan.delmonico/teste",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Renan Delmonico",
+            "email": "renan.delmonico@gazin.com.br"
+        }
+    ],
+    "require": {
+        "symfony/validator": "^3.3",
+        "doctrine/annotations": "^1.5",
+        "doctrine/cache": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Renan\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.1"
+    }
+}
